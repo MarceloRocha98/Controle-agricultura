@@ -22,4 +22,5 @@
 ## Temporização UC
 ![Temporizacao](https://user-images.githubusercontent.com/62729556/204090671-1e7c5c16-5827-4ae0-a40c-90248a6d6d02.png)
 
+## As simulações podem ser executadas no edaplayground ou afins, sem necessária nenhuma modificação nos códigos verilog
 

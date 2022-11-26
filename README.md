@@ -19,9 +19,7 @@
 ### Legenda
 ![image](https://user-images.githubusercontent.com/62729556/203410651-6a0bb7fc-bfba-4967-b999-d8854cc30b60.png)
 
-## Temporização
-![image](https://user-images.githubusercontent.com/62729556/203410730-aee33fac-8e24-4f59-ac95-acd8e0938968.png)
+## Temporização UC
+![Temporizacao](https://user-images.githubusercontent.com/62729556/204090671-1e7c5c16-5827-4ae0-a40c-90248a6d6d02.png)
 
-## Banco registradores
-![image](https://user-images.githubusercontent.com/62729556/203410776-6d7fac99-5e95-456a-8836-32500f28fb73.png)
 

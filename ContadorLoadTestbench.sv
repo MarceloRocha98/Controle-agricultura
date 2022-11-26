@@ -1,6 +1,9 @@
+// Code your testbench here
+// or browse Examples
+
 `timescale 1ns/1ps
 `define TCK 100
-`define KMAX 20
+`define KMAX 6
 
 module ContLd_sim( );
 	reg Ck, Clr, CE, L;
@@ -36,7 +39,7 @@ module ContLd_sim( );
     Clr <=0;
     L <=0;
     if(k>=0 && k<1) Clr <=1;
-    if(k>=0 && k<1) L <=3;
+    if(k>=1 && k<2) L <=3;
     if(k==0) CE<=1;
     if(k==3) CE<= #10 0;
     if(k==3) CE<= #(`TCK - 20) 1;

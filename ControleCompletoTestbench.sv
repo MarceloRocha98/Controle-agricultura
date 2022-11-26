@@ -1,3 +1,5 @@
+// Code your testbench here
+// or browse Examples
 
 `timescale 1ns/1ps
 `define TCK 100
@@ -52,7 +54,7 @@ module union_sim( );
     V0 = 4'b1111;
     V1 = 4'b0110;
     
-    if(k==1 ) Clr <=1;
+    if(k<=1 ) Clr <=1;
     if(k==3) Start <=1;
     if(k>=5) I1 <=1;
     if(k>=7) I2 <=1;

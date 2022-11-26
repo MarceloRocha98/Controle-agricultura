@@ -1,8 +1,11 @@
+// Code your testbench here
+// or browse Examples
 
 `timescale 1ns/1ps
 `define TCK 100
 `define KMAX 30
 
+// FALTA FAZER O TESTBENCH DO Init_FSM p validar o modulo
 
 module Operation_FSM_sim( );
 	reg Clr, Ck, H1, O6, I5, I6, I7;
@@ -39,7 +42,7 @@ module Operation_FSM_sim( );
     I7 <=0;
     H1 <=0;
     
-    if(k==1) Clr<=1;
+    if(k<=1) Clr<=1;
     if(k>=2) Clr <=0;
     if(k>=4) H1<=1;
     if(k>=5) O6<=0;
